@@ -12,7 +12,7 @@ LOGGER.setLevel(logging.DEBUG)
 env = "stg"
 dt = "2019-01-01"
 
-slack_url = "https://hooks.slack.com/services/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"
+slack_url = "YOUR_SLACK_WEBHOOK"
 
 
 def sns_alert(dt, env, slack_url, job_status="Succeeded"):
